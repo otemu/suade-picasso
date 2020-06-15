@@ -1,5 +1,13 @@
 # suade
 
+# Intro
+⋅⋅* dashboard
+⋅⋅* editable table
+⋅⋅* pie chart 
+⋅⋅* bar chart 
+⋅⋅* remove button
+⋅⋅* e2e tests implemented
+
 ## Project setup
 ```
 npm install

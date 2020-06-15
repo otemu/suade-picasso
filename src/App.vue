@@ -1,8 +1,9 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+    <div data-cy="navigation" id="nav">
+      <router-link to="/">Dashboard</router-link> |
+      <router-link to="/data-editor">Data Editor</router-link> |
+      <router-link to="/smart-search">Smart Search</router-link>
     </div>
     <router-view/>
   </div>
