@@ -10,11 +10,11 @@
           <th scope="col">#</th>
         </tr>
       </thead>
-      <tbody v-for="item in storeData" :key="item._id">
+      <tbody v-for="item in storeData" :key="item.id">
         <tr>
           <td contenteditable @blur="handleChange($event, item.id, 'name')">{{ item.name }}</td>
           <td contenteditable @blur="handleChange($event, item.id, 'age')">{{ item.age }}</td>
-          <td><button data-cy="remove" @click="remove(item._id)">Remove</button></td>
+          <td><button data-cy="remove" @click="remove(item.id)">Remove</button></td>
         </tr>
       </tbody>
     </table>
